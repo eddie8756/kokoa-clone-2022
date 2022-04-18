@@ -1,0 +1,30 @@
+.user-components {
+  display: flex;
+}
+
+.user-componets__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-componets__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.user-componets__nickname {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.user-components__subtitle {
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.user-componets__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
