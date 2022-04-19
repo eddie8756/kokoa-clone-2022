@@ -1,7 +1,8 @@
 .user-components {
-  display: flex;
+  justify-content: space-between;
 }
 
+.user-components,
 .user-componets__column:first-child {
   display: flex;
   align-items: center;
@@ -27,4 +28,17 @@
 .user-componets__avatar--xl {
   width: 80px;
   height: 80px;
+}
+
+.user-componets__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+.user-componets__nickname--not-bold {
+  font-weight: 400;
+}
+
+.user-componets__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
 }
